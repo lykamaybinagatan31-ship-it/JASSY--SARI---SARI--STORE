@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <title>Jassy Sari-sari Store in Polacion, Boljoon,Cebu</title>
+<meta name="description" content=Convenience
+Neighborhood
+Groceries
+Snacks
+Drinks
+Essentials
+Retail
+Community
+Affordable
+Daily needs>
+ <meta name="keyword"content= “Neighborhood convenience store selling products and services daily.”> 
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+
+body{
+<BODY STYLE="background-image:url('https://raw.githubusercontent.com/lykamaybinagatan49-a11y/JASSY-SARI-SARI-STORE/main/PIC12.jpg');">
+background-size:cover;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* Overlay */
+body::before{
+content:"";
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.5);
+z-index:-1;
+}
+
+/* Container */
+.container{
+background:rgba(255,255,255,.1);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:20px;
+text-align:center;
+color:white;
+max-width:900px;
+width:95%;
+box-shadow:0 0 25px rgba(0,0,0,.6);
+animation:fade 1s ease;
+}
+
+/* Title */
+h1{
+font-size:clamp(26px,4vw,46px);
+color:#ffb0ff;
+text-shadow:0 0 18px violet;
+margin-bottom:20px;
+}
+
+/* Nav */
+.nav{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+margin-bottom:25px;
+}
+.nav a{
+text-decoration:none;
+background:linear-gradient(45deg,hotpink,violet);
+color:white;
+padding:12px 28px;
+border-radius:30px;
+font-weight:600;
+letter-spacing:1px;
+transition:.3s;
+}
+.nav a:hover{
+background:white;
+color:black;
+transform:scale(1.1);
+}
+
+/* Gallery */
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:18px;
+}
+
+/* Images */
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:12px;
+box-shadow:0 0 15px black;
+transition:.3s;
+}
+.gallery img:hover{
+transform:scale(1.06);
+filter:brightness(1.1);
+}
+
+/* Promo */
+.promo{
+margin-top:25px;
+padding:18px;
+border-radius:12px;
+font-size:clamp(16px,3vw,22px);
+font-weight:700;
+text-align:center;
+background:linear-gradient(to right,#19ff69,#0fa94b);
+animation:pulse 2s ease-in-out infinite;
+box-shadow:0 0 15px #19ff69;
+color:#003b1a;
+}
+
+/* Animations */
+@keyframes pulse{
+0%,100%{transform:scale(1);}
+50%{transform:scale(1.06);}
+}
+@keyframes fade{
+from{opacity:0;transform:translateY(30px);}
+to{opacity:1;}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Welcome to Jassy Sari-Sari Store</h1>
+
+<nav class="nav">
+<a href="HOME4.html">HOME</a>
+<a href="event1.html">EVENT</a>
+<a href="CONTACT.html">CONTACT</a>
+<a href="PRODUCT3.html">PRODUCTS</a>
+</nav>
+
+<section class="gallery">
+<img src="PIC20.jpg" alt="Promo 1">
+<img src="PIC21.jpg" alt="Promo 2">
+<img src="PIC22.jpg" alt="Promo 3">
+</section>
+
+<div class="promo">
+BUY ANY 2 • SAVE ₱30 PROMO
+</div>
+
+</div>
+
+</body>
+</html>
